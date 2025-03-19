@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb43299a.css",
-    "main.js": "/static/js/main.b03e044d.js",
-    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/index.html",
-    "main.eb43299a.css.map": "/static/css/main.eb43299a.css.map",
-    "main.b03e044d.js.map": "/static/js/main.b03e044d.js.map",
-    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/input-box-with-mic/static/css/main.eb43299a.css",
+    "main.js": "/input-box-with-mic/static/js/main.c3edac88.js",
+    "static/js/453.ed3810f9.chunk.js": "/input-box-with-mic/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/input-box-with-mic/index.html",
+    "main.eb43299a.css.map": "/input-box-with-mic/static/css/main.eb43299a.css.map",
+    "main.c3edac88.js.map": "/input-box-with-mic/static/js/main.c3edac88.js.map",
+    "453.ed3810f9.chunk.js.map": "/input-box-with-mic/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb43299a.css",
-    "static/js/main.b03e044d.js"
+    "static/js/main.c3edac88.js"
   ]
 }
