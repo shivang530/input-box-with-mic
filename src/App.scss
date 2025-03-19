@@ -1,0 +1,77 @@
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #faf5ff, #ebf8ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 28rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input {
+  width: 85%;
+  padding: 0.75rem 3rem 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cbd5e0;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.input:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 2px #9f7aea;
+}
+
+.mic-button {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: #faf5ff;
+  color: #6b46c1;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.mic-button:hover {
+  background: #e9d8fd;
+}
+
+.mic-button.listening {
+  background: #fff5f5;
+  color: #e53e3e;
+}
+
+.mic-button.listening:hover {
+  background: #fed7d7;
+}
+
+.status {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #718096;
+  text-align: center;
+}
